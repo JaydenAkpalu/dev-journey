@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    h2{
+      text-align: center;
+      font-weight: bold;
+    }
+    .friends-page{
+      background-color: white;
+      width: 760px;
+      height: 450px;
+      margin: 50px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 2px 2px 6px rgba(0,0,0,2);
+    }
+    .friend
+    {
+      background-color: white;
+      box-shadow: 2px 2px 6px rgba(0,0,0,2);
+      display: inline-block;
+      width: 220px;
+      height: 400px;
+      margin: 5px 15px 0px 15px;
+    }
+    .image
+    {
+      width: 220px;
+     }
+     .image img
+     {
+      width: 100%;
+      height: auto;
+     }
+     .name
+     {
+      font-weight: bold;
+      margin-left: 16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     .friend-info-img{
+      display: inline-block;
+     }
+     .friend-info-img img{
+      width: 50px;
+      border-radius: 50%;
+      margin-left: 16px;
+      vertical-align: top;
+     }
+     .friend-info-stats{
+      display: inline-block;
+      vertical-align: top;
+     }
+     .friend-info-stats p{
+      margin-left: 10px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+     }
+     .button button{
+     margin: 30px 0px 10px 16px;
+     border: none;
+     border-radius: 7px;
+     background-color: rgb(27, 164, 255);
+     color: white;
+     width: 120px;
+     height: 35px;
+     font-size: 15px;
+     transition: transform 0.15s ease;
+     cursor: pointer;
+    }
+    .friend button:hover{
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <h2>HTML&CSS PRACTICE - THE NESTED LAYOUT</h2>
+  <div class="friends-page">
+    <div class="friend">
+      <div class="image">
+        <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="">
+      </div>
+      <div class="name">
+        <p>Oliver</p>
+      </div>
+      <div class="friend-info">
+        <div class="friend-info-img">
+          <img src="https://randomuser.me/api/portraits/men/49.jpg" alt="">
+        </div>
+        <div class="friend-info-stats">
+          <p>5 mutual friends</p>
+        </div>
+      </div>
+      <div class="button">
+        <button>Add Friend</button>
+      </div>
+    </div>
+    <div class="friend">
+      <div class="image">
+        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="">  
+      </div>
+      <div class="name">
+        <p>Mimi</p>
+      </div>
+      <div class="friend-info">
+        <div class="friend-info-img">
+          <img src="https://randomuser.me/api/portraits/men/49.jpg" alt="">
+        </div>
+        <div class="friend-info-stats">
+          <p>3 mutual friends</p>
+        </div>
+      </div>
+      <div class="button">
+        <button>Add Friend</button>
+      </div>
+    </div>
+    <div class="friend">
+      <div class="image">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+      </div>
+      <div class="name">
+        <p>Rex</p>
+      </div>
+      <div class="friend-info">
+        <div class="friend-info-img">
+          <img src="https://randomuser.me/api/portraits/men/49.jpg" alt="">
+        </div>
+        <div class="friend-info-stats">
+          <p>2 mutual friends</p>
+        </div>
+      </div>
+      <div class="button">
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

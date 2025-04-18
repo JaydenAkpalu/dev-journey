@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .home{
+      margin-top: 100px;
+      margin-left: 50px;
+      background-color: white;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+      border-radius: 8px;
+      width: 540px;
+      height: 100px;
+      align-items: center;
+      display: flex;
+
+    }
+    .profile-pic{
+      border-radius: 50%;
+      display: inline-block;
+      transform: scale(0.56);
+    }
+    .text{
+      display: inline-block;
+      font-size: 16px;
+      font-family: 'Lucida Sans';
+    }
+    .tweet-btn{
+      display: inline-block;
+      margin-left: 150px;
+      color: white;
+      background-color: rgb(17, 145, 250);
+      border: none;
+      height: 36px;
+      width: 80px;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+    .tweet-btn:hover{
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+    }
+    h2{
+      font-family: Helvetica;
+      text-align: center;
+    }
+    .flex-container{
+      display: flex;
+    }
+    .friends-page{
+      margin: 100px 0px 0px 50px;
+      background-color: white;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      width: 500px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .friend{
+      width: 140px;
+      height: 270px;
+      background-color: white;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+      display: inline-block;
+    }
+    .friend img{
+      width: 140px;
+    }
+    .name{
+      font-weight: bold;
+      margin-left: 7px;
+      font-family:sans-serif;
+      font-size: 14px;
+    }
+    .no-of-mutuals{
+      margin-left: 7px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 14px;
+    }
+    .friend button{
+      margin-top: 10px;
+      margin-left: 10px;
+      color: white;
+      background-color: rgb(27, 164, 255);
+      border: none;
+      cursor: pointer;
+      width: 100px;
+      height: 34px;
+      font-size: 14px;
+      border-radius: 5px;
+      transition: transform 0.15s ease;
+    }
+    .friend button:hover{
+      transform: scale(1.03);
+    }
+    .google{
+      display: block;
+      align-items: center;
+      background-color: white;
+      width: 700px;
+      height: 400px;
+      margin: 0px 0px 0px 150px;
+    }
+    .google img{
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: -57px;
+    }
+    .google input{
+      width: 550px;
+      height: 55px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 40px;
+      padding-left: 17px;
+      border: none;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    
+    }
+    .google input::placeholder {
+      margin-left: 20px;
+      font-size: 16px;
+      color: gray;
+    }
+    .google input:focus{
+      outline: none;
+    }
+    .search-btn{
+      position: absolute;
+      margin-left: 160px;
+      margin-top: 20px;
+      width: 160px;
+      height: 50px;
+      border: none;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .other-btn{
+      position: absolute;
+      margin-left: 340px;
+      margin-top: 20px;
+      border: none;
+      width: 160px;
+      height: 50px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  
+
+  </style>
+</head>
+<body>
+  <h2>HTML AND CSS PRACTICE</h2>
+  <!--tweet-->
+  <div class="home">
+    <img src="https://randomuser.me/api/portraits/men/41.jpg" class="profile-pic" alt="">
+    <p class="text">What's happening?</p>
+    <button class="tweet-btn">Tweet</button>
+  </div>
+
+  <!--Add friends-->
+  <div class="flex-container">
+  <div class="friends-page">
+  <div class="friend">
+    <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
+    <p class="name">Alice</p>
+    <p class="no-of-mutuals">2 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+  <div class="friend">
+    <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="">
+    <p class="name">Josh</p>
+    <p class="no-of-mutuals">3 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+  <div class="friend">
+    <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="">
+    <p class="name">Aleksander</p>
+    <p class="no-of-mutuals">4 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+</div>
+ 
+<!--Google search-->
+<div class="google">
+  <img src="Google-Logo-removebg-preview.png" alt="">
+  <input type="text" placeholder="Search Google or type a URL"></input>
+  <div class="buttons">
+  <button class="search-btn">Google Search</button>
+  <button class="other-btn">I'm Feeling Lucky</button>
+</div>
+</div>
+</div>
+</body>
+</html>
