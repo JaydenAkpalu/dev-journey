@@ -1,5 +1,5 @@
 # MY WEB DEVELOPMENT JOURNEY - ZERO TO HERO
-##### Welcome to the log of my web development learning journey!  
+##### Welcome to the log of my web development learning journey! I started learning HTML, CSS, and Javascript in December 2024 at the Nexgen Educational Hub in Ghana, and also utilized YouTube tutorials and courses on freecodecamp.
 ##### This folder contain notes and everything I learn in web development, from basic HTML & CSS to JavaScript, responsive design, and beyond.
 
 
