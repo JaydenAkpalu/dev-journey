@@ -17,9 +17,16 @@
 
 
 ## The CSS Grid layout - 19/04/2025
-#### Learned the fundamentals of CSS Grid, a powerful tool for creating flexible and responsive web layouts. It enabled me to design grid-based structures with ease.
+#### Learned the fundamentals of CSS Grid, a powerful tool for creating web layouts. It enabled me to design grid-based structures with ease.
 #### Key Concepts I Learned:
 #### 1. Defining Grids: I learned how to set up grid containers using display: grid and define the number of columns and rows with grid-template-columns and grid-template-rows. This gives me full control over the structure of the layout.
 #### 2. Column Gap: I explored the column-gap property to control the spacing between columns in the grid. This helps create more breathing room between elements, improving readability and visual flow.
 #### 3. Row Gap: I also learned about the row-gap property, which allows me to control the spacing between rows. This ensures consistent spacing vertically between grid items.
 #### These concepts helped me create more organized and responsive layouts with minimal effort, while also improving the overall design flexibility across different screen sizes.
+
+
+## The CSS Flexbox Property - 26/04/2025
+#### Learned how to use the flexbox for creating flexible web layouts in contrasst to the rigid grid layout.
+#### Key Concepts I learned:
+#### 1. Defining flexbox: I learned how to set up flexbox usign display:flex as well as specifying the direction of the flexbox using flex-direction, which can be set to either row or column
+#### 2. Aligning items: I learned how to align items in a div along the x-axis and y-axis. For the x-axis, I used the justify-content property, which can be set to values like center, start, space-around, space-between, and end. For the y-axis, I used the align-items property, which can also be set to values like center, start, end, and stretch.
