@@ -22,7 +22,7 @@
 #### 1. Defining Grids: I learned how to set up grid containers using display: grid and define the number of columns and rows with grid-template-columns and grid-template-rows. This gives me full control over the structure of the layout.
 #### 2. Column Gap: I explored the column-gap property to control the spacing between columns in the grid. This helps create more breathing room between elements, improving readability and visual flow.
 #### 3. Row Gap: I also learned about the row-gap property, which allows me to control the spacing between rows. This ensures consistent spacing vertically between grid items.
-#### These concepts helped me create more organized and responsive layouts with minimal effort, while also improving the overall design.
+#### These concepts helped me create more organized and responsive layouts with minimal effort, while also improving the overall design flexibility across different screen sizes.
 
 
 ## The CSS Flexbox Property - 26/04/2025
