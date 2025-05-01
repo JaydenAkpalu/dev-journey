@@ -10,10 +10,12 @@
   .practice-1{
     display: flex;
     height: 70px;
+    width: 600px;
+    margin: auto;
   }
   .item-1{
     display: flex;
-    width: 100px;
+    width: 200px;
     background-color: lightpink;
     align-items: center;
     justify-content: center;
@@ -21,13 +23,57 @@
   .item-1 p{
     background-color: black;
     color: white;
+    font-size: 20px;
   }
   .item-2{
-    width: 200px;
+    width: 400px;
     background-color: lightblue;
   }
+  .practice-2{
+    display: flex;
+    height: 70px;
+    width: 600px;
+    margin: auto;
+  }
+  .left{
+    width: 200px;
+    background-color: lightpink;
+  }
+  .right{
+    width: 400px;
+    height: 70px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+  }
+  .row-1{
+    width: 400px;
+    display: flex;
+}
+  .row-1 p{
+  margin: 0;
+  font-size: 20px;
+
+}
+  .row-2{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  
+  }
+  .row-2 p{
+    color: white;
+    background: black;
+    margin: 0;
+    font-size: 20px;
+  
+    }
 </style>
-<body>
+<body
+style="
+padding-bottom: 1000px;
+"
+>
 <h2
 style="
 text-align: center;
@@ -37,6 +83,12 @@ text-align: center;
 </h2>
 
 <!--Practice Exercise 1-->
+<h3
+style="
+text-align: center;
+"
+>
+  Practice Exercise 1</h3>
 <div class="practice-1">
   <div class="item-1">
     <p>item 1</p>
@@ -45,3 +97,26 @@ text-align: center;
 </div>
 </body>
 </html>
+
+<!--Practice Exercise 2-->
+<h3
+style="
+text-align: center;
+margin-top: 100px;
+"
+>
+  Practice Exercise 2
+</h3>
+
+<div class="practice-2">
+  <div class="left"></div>
+  <div class="right">
+    <div class="row-1">
+      <p>row 1</p>
+    </div>
+    <div class="row-2">
+      <p>row 2</p>
+      <p>row 2</p>
+    </div>
+  </div>
+</div>
