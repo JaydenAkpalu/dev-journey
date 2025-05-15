@@ -30,3 +30,12 @@
 #### Key Concepts I learned:
 #### 1. Defining flexbox: I learned how to set up flexbox usign display:flex as well as specifying the direction of the flexbox using flex-direction, which can be set to either row or column
 #### 2. Aligning items: I learned how to align items in a div along the x-axis and y-axis. For the x-axis, I used the justify-content property, which can be set to values like center, start, space-around, space-between, and end. For the y-axis, I used the align-items property, which can also be set to values like center, start, end, and stretch.
+
+
+## The CSS Nested Flexbox - 15/05/2025
+#### Learned how to create more complex and responsive layouts by nesting flex containers within each other .Practised combining parent and child flex containers to build multi-section layouts with both horizontal and vertical alignment.
+#### Key Concepts I Learned:
+#### 1. Nesting Flex Containers: I created flex containers inside other flex containers to design more structured layouts.
+#### 2. Independent Axis Control: Each nested flex container can have its own flex-direction, justify-content, and align-items properties, allowing precise control of both axes within sections.
+#### 3. flex: 1: I learned how flex: 1 allows a flex item to grow and take up the remaining space inside the flex container proportionally. It’s a shorthand for flex-grow: 1; flex-shrink: 1; flex-basis: 0.
+#### 4. flex-shrink: This property controls how items shrink when there’s not enough space. I experimented with setting different flex-shrink values to prioritize which items reduce in size first.
