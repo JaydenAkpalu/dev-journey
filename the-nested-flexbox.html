@@ -150,6 +150,48 @@
   .bottom-section{
     margin-top: 18px;
   }
+  .exercise-3{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  }
+  .exercise-3 p{
+    margin: 0;
+  }
+  .profile-pic-section img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 15px;
+  }
+  .post-link{
+    display: flex;
+    width: 400px;
+    margin: 20px 20px 0px 0px;
+    height: 120px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 212, 212);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 2px rgba(0,0,0,0.15);
+  }
+  .link-left-section{
+    width: 180px;
+    background-color: rgba(216, 208, 208, 0.815);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+  .link-right-section{
+    margin: 22px 0px 0px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .link-right-section p{
+    margin: 5px;
+  }
 </style>
 <body
 style="
@@ -413,3 +455,50 @@ text-align: center;
 margin-top: 100px;
 "
 >Challenge Exercise 3</h3>  
+
+<div class="exercise-3">
+  <div class="profile-pic-section">
+    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="">
+  </div>
+  <div class="post-section">
+    <div class="handle">
+      <p
+      style="
+      margin-top: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      ">
+        <span style="
+        font-weight: bold;
+        font-size: 16px;
+         ">
+        codesuzzy.dev</span>
+        <span
+        style="
+        color: gray;
+        font-weight: 300;
+        "
+        >@CodeSuzzyDev</span> </p>
+    </div>
+    <div class="post-text">
+      <p 
+      style="
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      "
+      >What is backend web development? A complete overview. New video is up!</p>
+    </div>
+    <div class="post-link">
+      <div class="link-left-section"></div>
+      <div class="link-right-section">
+        <p
+        
+        style="
+        color: gray;
+        "
+        >youtube.com</p>
+        <p>Backend web development - a complete overview (2021)</p>
+      </div>
+    </div>
+  </div>
+</div>
