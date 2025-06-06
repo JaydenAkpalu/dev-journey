@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Practice</title>
+
+    <style>
+        .profile-pic {
+            width: 3.4rem;
+            border-radius: 50%;
+        }
+        .profile-details {
+            display: flex;
+            gap: 1.1rem;
+        }
+        .profile-details p{
+            font-family: Calibri;
+            font-weight: bold;
+        }
+        .buttons {
+            display: flex;
+            gap: 1.2rem;
+        }
+        .btn-1,
+        .btn-2 {
+            border: none;
+            padding: 0.6rem;
+            border-radius: 7px;
+            font-family: Calibri;
+            width: 6.3rem;
+            font-size: 16.3px;
+            font-weight: bold;
+        }
+        .btn-1 {
+            background-color: rgb(25, 119, 251);
+            color: white;
+        }
+        .btn-2 {
+            background-color: rgb(228, 226, 226);
+            color: black;
+        }
+    </style>
+</head>
+<body
+style="
+height: 3000px;
+background-color: rgba(0,0,0,0.8);
+"
+>
+</body>
+
+<div
+style="
+display: flex;
+background-color: white;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+padding: 1rem 4rem 1rem 4rem;
+"
+>
+    <div class="profile-details">
+        <img 
+        class="profile-pic" 
+        src="https://randomuser.me/api/portraits/men/32.jpg" 
+        alt="Profile picture">
+        <p>Bryan Moore</p>
+    </div>
+    <div class="buttons">
+        <button class="btn-1">
+            Add friend
+        </button>
+        <button class="btn-2">
+            Message
+        </button>
+    </div>
+
+</div>
+
+</html>
